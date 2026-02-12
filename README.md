@@ -1,2 +1,2 @@
-# AI-TestModel
+Teachable Machine Tensorflow AI Test Model
 
