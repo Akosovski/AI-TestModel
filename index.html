@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Teachable Machine Image Tester</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Teachable Machine Image Tester</h1>
+
+<button onclick="init()">Load Model</button>
+
+<br><br>
+
+<input type="file" id="imageUpload" accept="image/*">
+<br><br>
+
+<img id="preview" />
+
+<div id="label-container"></div>
+
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest/dist/tf.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@latest/dist/teachablemachine-image.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
